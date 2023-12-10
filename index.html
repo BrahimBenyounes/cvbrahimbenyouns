@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<style>
+   @media print {
+			button {
+				display: none;
+			}
+		}
+
+    button {
+      padding: 10px;
+      background-color: #0d7893;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+
+<body>
+ 
+<div class="resume-box">
+	
+	<div class="left-section">
+		<div class="profile">
+		<img src="image/profile.png" class="profile-img">
+		<div class="blue-box"></div>
+		</div>
+		<h2 class="name">Brahim <br><span>Ben Younes</span></h2>
+		<p class="n-p">Junior DevOps & Engineer  </p>
+
+
+		<div class="info">
+			<p class="heading">Info</p>
+			<p class="p1"><span class="span1"><img src="image/location.png"></span>Address<span> <br>Tamerza 2211 Tozeur</span></p>
+			<p class="p1"><span class="span1"><img src="image/call.png"></span>Phone<span> <br>+216 93500045</span></p>
+			<p class="p1"><span class="span1"><img src="image/mail.png"></span>Email<span> <br>bys.brahim@gmail.com</span></p>
+			
+		</div>
+
+		<div class="info">
+			<p class="heading">Social</p>
+			<p class="p1"><span class="span1"><img src="image/skype.png"></span>Skype<span> <br>brahim.b.younes</span></p>
+			<p class="p1"><span class="span1"><img src="image/twitter.png"></span>Twitter<span> <br>brahim.b.younes</span></p>
+			<p class="p1"><span class="span1"><img src="image/linkedin.png"></span>Linkdin<span> <br>en-younes-brahim</span></p>
+			<p class="p1"><span class="span1"><img src="image/facebook.png"></span>Facebook<span> <br>brahim.b.younes</span></p>
+		</div>
+
+	</div>
+	
+		
+	
+	<div class="right-section">
+		<div class="right-heading">
+			<img src="image/user.png">
+			<p class="p2">Profile</p>
+		</div>
+		<p class="p3">I am a DevOps enthusiast passionate about the automation and optimization of development and deployment processes. With 2 years of experience in the field, I am always seeking new technologies to enhance the efficiency of the business</p>
+
+		<div class="clearfix"></div>
+		<br><br>
+		<div class="right-heading">
+			<img src="image/pencil.png">
+			<p class="p2">Work Experience</p>
+		</div>
+		<div class="clearfix"></div>
+		<div class="lr-box">
+		<div class="left">
+			<p class="p4">2018 - 2019</p>
+			<p class="p5">Tozeur</p>
+		</div>
+
+		<div class="right">
+			<p class="p4"> GRADUATION INTERNSHIP</p>
+			<p class="p5">projects: Internship at ITGAN, a software development company</p>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+
+		<div class="lr-box">
+		<div class="left">
+			<p class="p4">2017 - 2018</p>
+			<p class="p5">Tozeur</p>
+		</div>
+
+		<div class="right">
+			<p class="p4"> ADVANCED INTERNSHIP</p>
+			<p class="p5">1 month (January 2018): Technician Internship at ISET Tozeur</p>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+ 
+		<div class="lr-box">
+		<div class="left">
+			<p class="p4">2016 - 2017</p>
+			<p class="p5">Chebika</p>
+		</div>
+
+		<div class="right">
+			<p class="p4">INITIATION INTERNSHIP</p>
+			<p class="p5">4 weeks (January 2017): Internship at the Tunisian Post Company.</p>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+
+
+		<br>
+		<div class="right-heading">
+			<img src="image/edu.png">
+			<p class="p2">Education</p>
+		</div>
+		<div class="clearfix"></div>
+		<div class="lr-box">
+		<div class="left">
+			<p class="p4">2016- 2019</p>
+			<p class="p5">Tozeur</p>
+		</div>
+
+		<div class="right">
+			
+			<p class="p5">ISET TOZEUR</p>
+			<p class="p5">Multimedia and Web Development Diploma from the Higher Institute of Technological Studies (ISET) in Tozeur </p>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+
+		<div class="lr-box">
+		<div class="left">
+			<p class="p4">2014 - 2016</p>
+			<p class="p5">Tamerza </p>
+		</div>
+
+		<div class="right">
+			
+			<p class="p5">Tamerza High School</p>
+			<p class="p5">Bachelor's Degree in Informatique  </p>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+
+		<br>
+		<div class="right-heading">
+			<img src="image/skils.png">
+			<p class="p2">Skill and expertise</p>
+		</div>
+		<div class="clearfix"></div>
+		<div class="s-box">
+			<p class="p6">Cloud Computing </p>
+			<div id="progress"></div>
+			<p class="p6">Containerization (Docker, Kubernetes)</p>
+			<div id="progress1"></div>
+			
+		</div>
+		<div class="s-box">
+			<p class="p6">Monitoring and Logging (Prometheus, Grafana)</p>
+			<div id="progress2"></div>
+			<p class="p6">Version Control (Git, SVN)</p>
+			<div id="progress3"></div>
+		</div>
+
+
+		<div class="clearfix"></div>
+		<br><br>
+		<button onclick="printResume()">Print CV</button>
+
+		<script>
+		  function printResume() {
+			window.print();
+		  }
+		</script>
+	
+
+	</div>
+
+		<div class="clearfix"></div>
+	
+		
+
+</div>
+
+
+
+
+
+</body>
+</html>
